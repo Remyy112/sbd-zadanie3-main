@@ -13,7 +13,7 @@
 4. SELECT COUNT(*) FROM `customers`
 5. SELECT COUNT(*) FROM `customers` GROUP BY `country`
 6. SELECT COUNT(*) FROM `products` WHERE `category_id`=1
-7. SELECT COUNT(*) FROM `products` WHERE `category_id`=1
+7. SELECT SUM(price) FROM `products` WHERE `category_id`=2
 8. SELECT MAX(price) FROM `products` WHERE `category_id`=1 OR `category_id`=2 GROUP BY `category_id`
 
 
